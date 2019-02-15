@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CustomerWebAPI.Models
 {
-	using CustomerWebAPI.BusinessObjects;
+	using BusinessObjects;
 
 	public class CustomerContext : DbContext
 	{

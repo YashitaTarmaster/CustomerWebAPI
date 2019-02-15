@@ -6,10 +6,9 @@ using System;
 
 namespace CustomerWebAPI.Controllers
 {
-	using CustomerWebAPI.BusinessObjects;
-	using CustomerWebAPI.BusinessLogic;
 	using CustomerWebAPI.Models;
 	using Microsoft.EntityFrameworkCore;
+	using BusinessObjects;
 
 	[Route("api/[controller]")]
 	[ApiController]

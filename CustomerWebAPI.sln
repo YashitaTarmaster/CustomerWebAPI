@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerWebAPI", "CustomerWebAPI\CustomerWebAPI.csproj", "{B6365D77-E45B-4800-8D38-2FA43B0BBD51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerWebAPI", "CustomerWebAPI\CustomerWebAPI.csproj", "{B6365D77-E45B-4800-8D38-2FA43B0BBD51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18} = {E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}
+		{F74F8896-C8A3-4C0D-A6EF-4045BD173005} = {F74F8896-C8A3-4C0D-A6EF-4045BD173005}
+		{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA} = {ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager.Business", "CustomerManager.Business\CustomerManager.Business.csproj", "{F74F8896-C8A3-4C0D-A6EF-4045BD173005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager.DataAccess", "CustomerManager.DataAccess\CustomerManager.DataAccess.csproj", "{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,18 @@ Global
 		{B6365D77-E45B-4800-8D38-2FA43B0BBD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6365D77-E45B-4800-8D38-2FA43B0BBD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6365D77-E45B-4800-8D38-2FA43B0BBD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74F8896-C8A3-4C0D-A6EF-4045BD173005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74F8896-C8A3-4C0D-A6EF-4045BD173005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74F8896-C8A3-4C0D-A6EF-4045BD173005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74F8896-C8A3-4C0D-A6EF-4045BD173005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBCB6C4-8C43-4AC6-B606-9FEC755329DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A3AE7D-C246-4FD3-A51D-84D10C60ED18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

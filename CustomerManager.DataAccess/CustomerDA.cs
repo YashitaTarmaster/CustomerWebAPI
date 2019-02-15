@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace CustomerWebAPI.DataAccess
+namespace CustomerManager.DataAccess
 {
-	using CustomerWebAPI.BusinessObjects;
+	using BusinessObjects;
 
 	public class CustomerDA
 	{
